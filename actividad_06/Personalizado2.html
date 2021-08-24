@@ -1,0 +1,40 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Personalizado2</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/subscribe.php">
+            <fieldset>
+                <legend>Ingrese su datos</legend>
+                <label>Nombre:<br/><input type="text" name="name" /></label><br/>
+                <label>Cedula:<br/><input type="text" name="Cedula" /></label>
+            </fieldset>
+            <fieldset>
+               <legend>Centro de consulta de servicios</legend>
+                <p>Consulta de servicios
+                    <select name="devices">
+                    <option value="Luz" checked="checked">Luz
+                    <option value="internet" checked="checked">internet
+                    <option value="Agua" checked="checked">Agua
+                    <option value="Gas" checked="checked">Gas
+                    <option value="Servicio de aseo" checked="checked">servicio de aseo
+                    
+                </select>
+                <p>Tramite
+                    <br/>
+                    <input type="radio" name="desc" value="Si" checked="checked">Pago
+                    <input type="radio" name="desc" value="No" checked="checked">PQRS   
+                    <input type="radio" name="desc" value="Quizas" checked="checked">Consultas
+                </p>
+                <p>Comentarios
+                </p>
+                <textarea name="comments" cols="40" rows="4"></textarea>
+              <br/><br/>
+                    <input type="checkbox" name="service" value="iTunes" checked="checked">No soy un robot
+                <br/>
+                    <input type="submit" name="Enviar" value="Enviar" />
+            </fieldset>
+        </form>
+    </body>
+    </html>
